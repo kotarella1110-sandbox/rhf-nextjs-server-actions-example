@@ -16,8 +16,6 @@ export async function login({
   message: string;
   errors?: Record<string, string>;
 }> {
-  "use server";
-
   console.log("username", username);
   console.log("password", password);
 
